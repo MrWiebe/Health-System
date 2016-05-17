@@ -41,7 +41,7 @@ button2 = Tkinter.Button(root, text='New Window', width=10, height = 5, command 
 button.pack(side = Tkinter.LEFT)
 button2.pack(side = Tkinter.LEFT)
 
-for i in range(100):
+for i in range(50):
     listbox.insert(Tkinter.END, i)
 
 # attach listbox to scrollbar
